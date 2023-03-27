@@ -1,0 +1,98 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+svg{
+    color: #0d6efd;
+}
+.col input{
+    border: none;
+    border-radius: 50px;
+    background: #EBEDF0;
+}
+.profile{
+    font-size: 30px;
+}
+main{
+    background-color: #EBEDF0;
+}
+main> div> div> aside> div> .create{
+    color:white;
+    border-radius:20px;
+}
+main> div> div> .left> .mid a{
+    margin-top: 20px;
+}
+main> div> div> .left> .mid i{
+    width: 50px;
+    font-size: 25px;
+}
+main> div> div> .left> .mid p{
+    color: black;
+    font-size: 18px;
+}
+main> div> div> .left> .bot> .ab .gos{
+
+    margin-top: -15px;
+}
+main> div> div> .left> .bot> .ab .gos i{
+    font-size: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+main> div> div> .left> .bot> .ab> .gos> p{
+    height: 50px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+}
+main> div >div .main{
+    height: 600px;
+}
+main> div> div> .main> .topb> .boxes{
+    width: 18%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: gray;
+    overflow: hidden;
+    position: relative;
+}
+main> div> div> .main> .topb> .boxes> img{
+    width: 100%;
+    border-radius: 10px;
+    background-color: gray;
+    opacity: .7;
+    z-index: -1;
+}
+main> div> div> .main> .topb> .boxes> .bbox{
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+}
+main> div> div> .main> .topb> .boxes> .circle{
+    height: 35px;
+    width: 35px;
+    top: 5px;
+    left: 3px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50px;
+    border: 2px solid #0d6efd;
+    overflow: hidden;
+}
+main> div> div> .main> .topb> .boxes> .circle img{
+    width: 100%;
+}
+main> div> div> .main> .topb> .boxes> .bbox> p{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    bottom: -10px;
+}
+.post{
+    flex-wrap: wrap;
+    background-color: #F5F6F7;
+}
