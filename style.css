@@ -13,6 +13,7 @@ svg{
     font-size: 30px;
 }
 main{
+    height: 2000px;
     background-color: #EBEDF0;
 }
 main> div> div> aside> div> .create{
@@ -95,4 +96,10 @@ main> div> div> .main> .topb> .boxes> .bbox> p{
 .post{
     flex-wrap: wrap;
     background-color: #F5F6F7;
+}
+.wimage{
+    margin-bottom: 20px;
+}
+.wimage> .image{
+    margin-right: 10px;
 }
