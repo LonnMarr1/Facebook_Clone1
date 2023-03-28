@@ -54,7 +54,7 @@ main> div >div .main{
 }
 main> div> div> .main> .topb> .boxes{
     width: 18%;
-    height: 150px;
+    height: 180px;
     border-radius: 10px;
     background-color: gray;
     overflow: hidden;
