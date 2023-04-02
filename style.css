@@ -13,7 +13,7 @@ svg{
     font-size: 30px;
 }
 main{
-    height: 2000px;
+    height: 2150px;
     background-color: #EBEDF0;
 }
 main> div> div> aside> div> .create{
@@ -62,6 +62,7 @@ main> div> div> .main> .topb> .boxes{
 }
 main> div> div> .main> .topb> .boxes> img{
     width: 100%;
+    height: 100%;
     border-radius: 10px;
     background-color: gray;
     opacity: .7;
@@ -102,4 +103,15 @@ main> div> div> .main> .topb> .boxes> .bbox> p{
 }
 .wimage> .image{
     margin-right: 10px;
+}
+.cstory{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+}
+.cstory div{
+    display: flex;
+    justify-content: center;
 }
