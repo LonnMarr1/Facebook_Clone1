@@ -1,20 +1,33 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+:root{    
+    --primary-color: black;
+    --secondary-color: #f8f9fa;
+    --tertiary-color: #EBEDF0;
+}
+.dark-theme{
+    --primary-color: white;
+    --secondary-color: #282828;
+    --tertiary-color: rgba(0, 0, 0, 0.8);
+
+}
 svg{
     color: #0d6efd;
 }
 .col input{
     border: none;
     border-radius: 50px;
-    background: #EBEDF0;
 }
 .profile{
     font-size: 30px;
 }
+.dropdown-item img{
+    height: 30px;
+    width: 30px;
+}
 main{
     height: 2150px;
-    background-color: #EBEDF0;
 }
 main> div> div> aside> div> .create{
     color:white;
@@ -28,7 +41,6 @@ main> div> div> .left> .mid i{
     font-size: 25px;
 }
 main> div> div> .left> .mid p{
-    color: black;
     font-size: 18px;
 }
 main> div> div> .left> .bot> .ab .gos{
@@ -47,7 +59,7 @@ main> div> div> .left> .bot> .ab> .gos> p{
     display: flex;
     align-items: center;
     font-size: 18px;
-    color: black;
+    color: var(--primary-color);
 }
 main> div >div .main{
     height: 600px;
@@ -96,7 +108,6 @@ main> div> div> .main> .topb> .boxes> .bbox> p{
 }
 .post{
     flex-wrap: wrap;
-    background-color: #F5F6F7;
 }
 .wimage{
     margin-bottom: 20px;
@@ -115,3 +126,16 @@ main> div> div> .main> .topb> .boxes> .bbox> p{
     display: flex;
     justify-content: center;
 }
+.profile i, .dropdown> button, .dropdown> ul> li> a, .links> a> p, .bot> p, .name> p, .row> .col-12, .row> .col-4> a, aside> .contacts, .topb p, .conname, input, section p, .narrow a> i{
+    color: var(--primary-color);
+}
+
+header, .main .post, .dropdown> ul, .narrow{
+    background-color: var(--secondary-color);
+}
+main,input, .main .post input {
+    background-color: var(--tertiary-color);
+}
+.create{
+    color:black;
+} 
