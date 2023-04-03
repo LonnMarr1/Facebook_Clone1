@@ -64,11 +64,9 @@ main{
     height: 2000px;
 }
 main> .main> .topb{
-    margin: auto;
     overflow: scroll;
     width: 90%;
-    height: 170px;
-    height: 150px;
+    height: 180px;
 }
 main> .main> .topb::-webkit-scrollbar {
     width: 0px;
@@ -89,6 +87,7 @@ main> .main> .topb> .boxes> .boxes1{
     background-color: black;
     border-radius: 10px;
     height: 100%;
+    position: relative;
 }
 main> .main> .topb> .boxes> .boxes1 p{
     color: white;
@@ -162,4 +161,35 @@ main> .main> .post{
 }
 .wimage p{
     margin-left: 10px;
+}
+.boxes1> .timg{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+.boxes1 .timg img{
+    position: absolute;
+    height: 100% !important;
+    z-index: 1 !important;
+    border-radius: 20px !important;
+    border: 2px solid #0d6efd;
+    top: 5px;
+    left: 5px;
+}
+main> .main> .topb> .boxes> .boxes1> .box{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+}
+main> .main> .topb> .boxes> .boxes1> .box p{
+    color: black;
+}
+main> .main> .topb> .boxes> .boxes1> .plus{
+    color: black;
+    position: absolute;
+    bottom: 40px;
+    left: 32px;
+    z-index: 1;
 }
