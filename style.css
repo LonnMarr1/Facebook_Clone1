@@ -1,141 +1,165 @@
-*{
+*, .left> ul li a{
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--primary-color);
 }
+
 :root{    
     --primary-color: black;
-    --secondary-color: #f8f9fa;
-    --tertiary-color: #EBEDF0;
+    --secondary-color: #EBEDF0;
+    --tertiary-color: white;
 }
 .dark-theme{
     --primary-color: white;
-    --secondary-color: #282828;
-    --tertiary-color: rgba(0, 0, 0, 0.8);
+    --secondary-color: #1C1E21;
+    --tertiary-color: #303338;
 
-}
-svg{
-    color: #0d6efd;
-}
-.col input{
-    border: none;
-    border-radius: 50px;
-}
-.profile{
-    font-size: 30px;
-}
-.dropdown-item img{
-    height: 30px;
-    width: 30px;
 }
 main{
-    height: 2150px;
+    background-color: var(--secondary-color);
 }
-main> div> div> aside> div> .create{
-    color:white;
-    border-radius:20px;
+header, main> .main> .post, .what, .left> ul{
+    background-color: var(--tertiary-color);
 }
-main> div> div> .left> .mid a{
-    margin-top: 20px;
+svg *, aside i{
+    color: #0d6efd;
+}   
+.col-10 input{
+    width: 70%;
+    height: 35px;
+    border-radius: 20px;
+    font-size: .9em;
 }
-main> div> div> .left> .mid i{
-    width: 50px;
+.mid> .icon button{
+    background-color: transparent !important;
+    margin-top: -1000px !important;
+    border: none !important;
+}
+.icon ul li a img,.left ul li a img{
+    width: 25px;
+}
+.left a{
+    margin-right: 5px;
+}
+.left> button{
+    align-items: flex-start;
+    background-color: transparent !important;
+    border: none !important;
+    height: 30px;
+    top: -3px;
+}
+button p{
+    margin-bottom: 0px !important;
+    width: 120px !important;
+}
+aside i{
     font-size: 25px;
+    width: 50px;
 }
-main> div> div> .left> .mid p{
-    font-size: 18px;
-}
-main> div> div> .left> .bot> .ab .gos{
-
-    margin-top: -15px;
-}
-main> div> div> .left> .bot> .ab .gos i{
-    font-size: 30px;
-    height: 50px;
+.links a p{
+    height: 35px;
     display: flex;
     align-items: center;
 }
-main> div> div> .left> .bot> .ab> .gos> p{
-    height: 50px;
-    margin-left: 15px;
-    display: flex;
-    align-items: center;
-    font-size: 18px;
-    color: var(--primary-color);
+main{
+    height: 2000px;
 }
-main> div >div .main{
-    height: 600px;
+main> .main> .topb{
+    margin: auto;
+    overflow: scroll;
+    width: 90%;
+    height: 170px;
+    height: 150px;
 }
-main> div> div> .main> .topb> .boxes{
-    width: 18%;
-    height: 180px;
+main> .main> .topb::-webkit-scrollbar {
+    width: 0px;
+    height: 10px;
+}
+main> .main> .topb::-webkit-scrollbar-track {
+    background: transparent;
+}
+main> .main> .topb::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+main> .main> .topb::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}
+main> .main> .topb> .boxes> .boxes1{
+    width: 100px;
+    margin-right: 10px;
+    background-color: black;
     border-radius: 10px;
-    background-color: gray;
-    overflow: hidden;
-    position: relative;
+    height: 100%;
 }
-main> div> div> .main> .topb> .boxes> img{
+main> .main> .topb> .boxes> .boxes1 p{
+    color: white;
+}
+main> .main> .topb> .boxes> .boxes1 img{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background-color: gray;
-    opacity: .7;
-    z-index: -1;
+    opacity: .9;
 }
-main> div> div> .main> .topb> .boxes> .bbox{
+main> .main> .topb> .boxes> .boxes1 p{
     position: absolute;
     bottom: 0px;
-    height: 50px;
-    width: 100%;
-}
-main> div> div> .main> .topb> .boxes> .circle{
-    height: 35px;
-    width: 35px;
-    top: 5px;
-    left: 3px;
-    position: absolute;
-    z-index: 1;
-    border-radius: 50px;
-    border: 2px solid #0d6efd;
-    overflow: hidden;
-}
-main> div> div> .main> .topb> .boxes> .circle img{
-    width: 100%;
-}
-main> div> div> .main> .topb> .boxes> .bbox> p{
-    font-size: 15px;
-    color: white;
-    position: absolute;
-    bottom: -10px;
-}
-.post{
-    flex-wrap: wrap;
-}
-.wimage{
-    margin-bottom: 20px;
-}
-.wimage> .image{
-    margin-right: 10px;
-}
-.cstory{
-    width: 100%;
-    height: 50px;
-    background-color: white;
-    position: absolute;
-    bottom: 0px;
-}
-.cstory div{
-    display: flex;
-    justify-content: center;
-}
-.profile i, .dropdown> button, .dropdown> ul> li> a, .links> a> p, .bot> p, .name> p, .row> .col-12, .row> .col-4> a, aside> .contacts, .topb p, .conname, input, section p, .narrow a> i{
-    color: var(--primary-color);
+    width: 90px;
 }
 
-header, .main .post, .dropdown> ul, .narrow{
-    background-color: var(--secondary-color);
+main> .main> .what{
+    width: 75%;
+    height: 120px;
+    border-radius: 10px;
 }
-main,input, .main .post input {
-    background-color: var(--tertiary-color);
+.what> .post> input{
+    width: 90%;
+    border-radius: 20px;
+    height: 30px;
 }
-.create{
-    color:black;
-} 
+.what> ul li{
+    display: flex;
+    font-size: 15px;
+    margin-right: 5%;
+}
+main> .main> .post{
+    border-radius: 10px;
+}
+.post> .top .image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+.post> .top .image img{
+    height: 90px;
+    position: absolute;
+    top: -30px;
+    left: -5px;
+}
+.post> .lcs{
+    margin-bottom: -10px
+}
+.image1{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+.image1 img{
+    height: 90px;
+    position: absolute;
+    top: -30px;
+    left: -5px;
+}
+.lcs li i{
+    font-size: 30px;
+}
+.wimage{
+    margin-top: 10px;
+}
+.wimage p{
+    margin-left: 10px;
+}
