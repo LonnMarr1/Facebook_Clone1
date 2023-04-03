@@ -61,7 +61,7 @@ aside i{
     align-items: center;
 }
 main{
-    height: 2000px;
+    height: auto;
 }
 main> .main> .topb{
     overflow: scroll;
